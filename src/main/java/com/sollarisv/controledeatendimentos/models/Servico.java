@@ -18,4 +18,6 @@ public class Servico implements Serializable
     private String id;
     private String nome;
     private double valor;
+    private double duracaoMed;
+
 }

@@ -3,9 +3,12 @@ package com.sollarisv.controledeatendimentos.dtos;
 import com.sollarisv.controledeatendimentos.models.Cliente;
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class ClienteDTO
+public class ClienteDTO implements Serializable
 {
+    private static final long serialVersionUID = 1L;
 
     private String id;
     private String nome;
